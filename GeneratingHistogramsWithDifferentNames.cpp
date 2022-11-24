@@ -1,5 +1,10 @@
 
 {
+ // Written by Eslam Shokr
+ // 24/11/2022
+ 
+ // this code is written to generate histogram with variable name!!
+ 
  TF1 *f1 = new TF1("f1","abs(sin(x)/x)*sqrt(x)",0,20);
 TH1F *myhist[4];
 
